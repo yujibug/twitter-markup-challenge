@@ -1,0 +1,23 @@
+<!-- div 대신 header, main, footer를 사용해주면 더 의미론적으로 마크업할 수 있다
+하지만 hader는 어떤 요소의 도입부에 자유롭게 써줄 수 있는 반면 main은 한 html에 하나만 쓸 수 있다 -->
+<main>
+  <header>
+    <h1>Home</h1>
+    <button type="button" aria-label="Timeline options">
+      <!-- Icon -->
+    </button>
+    <div>
+      <h2>Home shows you top Tweets first</h2>
+
+      <button type="button">
+        <!-- Icon -->
+        <strong> See latest Tweets instead </strong>
+        <span>You’ll see Tweets show up as they happen.</span>
+      </button>
+      <a href="#">
+        <!-- Icon -->
+        View content preferences
+      </a>
+    </div>
+  </header>
+</main>
